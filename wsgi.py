@@ -5,6 +5,7 @@ application = Flask(__name__)
 def hello():
     return "G'day, From W.A."
 
+print("G'day - 1")
+
 if __name__ == "__main__":
-    print("G'day - 1")
     application.run()
